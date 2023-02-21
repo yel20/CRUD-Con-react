@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+
+
+.todoContainer{
+    width: 500px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.todoCreateform{
+   display: flex;
+    gap: 5px;
+}
+
+.todoInput{
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #999;
+}
+.todoInputs{
+   
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #999;
+}
+.todoUpdateForm{
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.buttonCreate{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 30px;
+    color: #fff;
+    background-color:  #0d2231;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.todosContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top:10px ;
+}
+
+.todo{
+    padding: 10px ;
+    background-color: #0d2231;
+    border-radius: 10px;
+}
+
+.todoTitle{
+    flex: 1;
+    color: white;
+    font-size: 20px;
+}
+
+.todoUpdate, .todoInfo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.button{
+    border: none;
+    border-radius: 3px;
+    background-color: #487add ;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.buttonDelete{
+    border: none;
+    border-radius: 3px;
+    background-color: #b90701 ;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
